@@ -2,23 +2,58 @@
 <html lang="uk">
 <head>
   <meta charset="utf-8">
-  <title>CompStore — неоновий магазин комп'ютерів</title>
+  <title>Зворотний зв’язок — CompStore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="page-header">
     <div class="container header-grid">
+      
       <nav aria-label="Головна навігація">
         <ul class="nav-list">
-          <li><a href="index.html" aria-current="page">Головна</a></li>
-          <li><a href="index2.html">Зв’язок із нами</a></li>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="index2.html" aria-current="page">Зв’язок із нами</a></li>
+       
         </ul>
       </nav>
     </div>
   </header>
 <main id="main-content">
-</main>                                          
+   
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-flex">
+        <div class="hero-text">
+          <h1 id="hero-title" class="neon-text">Комп’ютери майбутнього</h1>
+          <p class="hero-sub">Потужність, стиль, неон. Обери свій ідеальний ПК вже сьогодні.</p>
+          <a href="#catalog" class="btn btn-glow">Переглянути каталог</a>
+        </div>
+        <figure class="hero-img">
+          <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=900&q=60"
+               alt="Неоновий ігровий комп'ютер">
+        </figure>
+      </div>
+    </section>
+
+   
+    <section id="catalog" class="catalog" aria-labelledby="s1">
+      <div class="container">
+        <h2 id="s1" class="section-title neon-underline">Каталог товарів</h2>
+
+        <div class="grid-4">
+         
+          <article class="product-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=800&q=60"
+                   alt="Ігровий ПК Hurricane">
+            </div>
+            <h3 class="product-title">Hurricane RTX</h3>
+            <p>RTX 4070 / Ryzen 7 7800X3D / 32 ГБ DDR5 / 1 ТБ NVMe</p>
+            <span class="price">49 999 ₴</span>
+            <a class="btn btn-glow" href="#">Докладніше</a>
+          </article>
+                  
     <footer class="page-footer">
     <div class="container footer-grid">
       <p>&copy; 2025 CompStore. Усі права захищені.</p>
@@ -26,3 +61,4 @@
   </footer>
 </body>
 </html>
+
