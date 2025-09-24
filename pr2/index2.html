@@ -1,4 +1,45 @@
-<div class="field">
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>CompStore — неоновий магазин комп'ютерів</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container header-grid">
+      <nav aria-label="Головна навігація">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Головна</a></li>
+          <li><a href="index2.html">Зв’язок із нами</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<main id="main-content">
+
+    <div class="container">
+      <h1 class="page-title neon-text">Зворотний зв’язок</h1>
+
+      <form action="#"
+            method="post"
+            novalidate
+            aria-labelledby="formHeading"
+            class="feedback-form neon-card">
+        <h2 id="formHeading" class="visually-hidden">Форма повідомлення</h2>
+
+        <div class="field">
+          <label for="name">Ім’я <span aria-hidden="true">*</span></label>
+          <input id="name"
+                 name="name"
+                 type="text"
+                 required
+                 aria-required="true"
+                 aria-describedby="nameHint">
+          <span id="nameHint" class="hint">Введіть своє ім’я</span>
+        </div>
+        <div class="field">
           <label for="email">Email <span aria-hidden="true">*</span></label>
           <input id="email"
                  name="email"
@@ -31,4 +72,14 @@
         <button type="submit" class="btn btn-glow">Надіслати</button>
       </form>
     </div>
-  </main>
+  </main>                                         
+  <footer class="page-footer">
+    <div class="container footer-grid">
+      <p>&copy; 2025 CompStore. Усі права захищені.</p> 
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
